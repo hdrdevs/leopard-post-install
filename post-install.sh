@@ -3,6 +3,9 @@
 # Obtención del nombre de usuario del archivo preseed.cfg.
 username=$(debconf-get-selections | grep passwd/username | awk '{print $NF}')
 
+mkdir -p /home/$username/.config/autostart
+touch /home/$username/.config/autostart/plank.desktop
+
 # Configuración para agregar Docky al inicio de la sesión del usuario.
 cat <<EOF > /home/$username/.config/autostart/plank.desktop
 [Desktop Entry]
