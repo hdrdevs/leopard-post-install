@@ -51,4 +51,7 @@ col=0
 EOF
 chown $username:$username /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
 
+# Set wallpaper
+xfconf-query -c xfce4-desktop -p  /backdrop/screen0/monitor0/workspace0/last-image -s /usr/share/images/desktop-base/leopard-linux-default.jpg
+
 cp os-release /etc/os-release
