@@ -70,7 +70,7 @@ ln -s /usr/share/images/desktop-base/leopard-linux-default.jpg /usr/share/images
 
 # Copia la configuracion de la distribución
 # rm /etc/os-release
-cp os-release /etc/
+cp os-release /etc/os-release
 
 # Copio el tema de lightdm
 # if [ ! -d "/usr/share/lightdm-webkit/themes/" ]; then
