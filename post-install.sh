@@ -6,17 +6,6 @@ username=$(debconf-get-selections | grep passwd/username | awk '{print $NF}')
 mkdir -p /home/$username/.config/autostart
 touch /home/$username/.config/autostart/plank.desktop
 
-# Configuración para agregar Docky al inicio de la sesión del usuario.
-cat <<EOF > /home/$username/.config/autostart/plank.desktop
-[Desktop Entry]
-Type=Application
-Name=Plank
-Exec=plank
-NoDisplay=false
-Hidden=false
-X-GNOME-Autostart-enabled=true
-EOF
-
 # Configuración de permisos para el archivo de inicio de sesión.
 chown $username:$username /home/$username/.config/autostart/plank.desktop
 chmod +x /home/$username/.config/autostart/plank.desktop
@@ -46,6 +35,7 @@ cp -r /root/leopard-post-install/local/* /home/$username/.local
 cp -r /root/leopard-post-install/wallpapers/* /usr/share/images/desktop-base
 
 # Crea la configuracion del escritorio
+mkdir -p /home/$username/.config/xfce4/desktop
 touch /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
 cat <<EOF > /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
 [xfdesktop-version-4.10.3+-rcfile_format]
@@ -60,3 +50,5 @@ row=1
 col=0
 EOF
 chown $username:$username /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
+
+cp os-release /etc/os-release

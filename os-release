@@ -1,0 +1,9 @@
+PRETTY_NAME="Leopard Linux"
+NAME="Leopard Linux"
+VERSION_ID="1"
+VERSION="1"
+VERSION_CODENAME=leopard
+ID=debian
+HOME_URL="https://leopardlinux.com.ar/"
+SUPPORT_URL="https://leopardlinux/support"
+BUG_REPORT_URL="https://github.com/hdrdevs/leopard-linux"
