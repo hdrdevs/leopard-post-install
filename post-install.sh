@@ -22,7 +22,7 @@ chown $username:$username /home/$username/.config/autostart/plank.desktop
 chmod +x /home/$username/.config/autostart/plank.desktop
 
 # Copia el tema de GTK
-cp -r /root/leopard-post-install/Leopard-linuc-theme /usr/share/themes
+cp -r /root/leopard-post-install/Leopard-linux-theme /usr/share/themes
 
 # Copia el tema de iconos
 cp -r /root/leopard-post-install/Leopard-linux-icons /usr/share/icons
