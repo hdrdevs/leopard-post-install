@@ -16,6 +16,9 @@ cp -r /root/leopard-post-install/cratos-lion /usr/share/plank/themes
 # Copia el tema de GTK
 cp -r /root/leopard-post-install/Leopard-linux-theme /usr/share/themes
 
+# Copia los launchers de las aplicaciones
+cp -r /root/leopard-post-install/applications/rofi.desktop /usr/share/applications
+
 # Copia el tema de iconos
 cp -r /root/leopard-post-install/Leopard-linux-icons /usr/share/icons
 
