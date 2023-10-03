@@ -54,12 +54,12 @@ EOF
 chown $username:$username /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
 
 # Rofi theme
-mkdir -p /home/$username/.local/share/rofi/themes/
-touch /home/$username/.local/share/rofi/themes/launchpad.rasi
-cat <<EOF > /home/$username/.local/share/rofi/themes/launchpad.rasi
+mkdir -p /home/$username/.config/rofi
+touch /home/$username/.config/rofi/config.rasi
+cat <<EOF > /home/$username/.config/rofi/config.rasi
 @theme "/home/$username/.local/share/rofi/themes/launchpad.rasi"
 EOF
-chown $username:$username /home/$username/.local/share/rofi/themes/launchpad.rasi
+chown $username:$username /home/$username/.config/rofi/config.rasi
 
 
 # Set wallpaper
