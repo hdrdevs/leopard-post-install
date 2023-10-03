@@ -1,2 +1,2 @@
-# leopart-post-install
+# leopard-post-install
 post install files
