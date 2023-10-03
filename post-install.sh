@@ -64,8 +64,8 @@ cat <<EOF > /home/$username/.config/rofi/config.rasi
 EOF
 chown $username:$username /home/$username/.config/rofi/config.rasi
 
+# Crea un enlace simbolico en /usr/share/images/default a leopard-linux-default.jpg
+ln -s /usr/share/images/desktop-base/leopard-linux-default.jpg /usr/share/images/default
 
-# Set wallpaper
-xfconf-query -c xfce4-desktop -p  /backdrop/screen0/monitor0/workspace0/last-image -s /usr/share/images/desktop-base/leopard-linux-default.jpg
-
+# Copia la configuracion de la distribución
 cp os-release /etc/os-release
