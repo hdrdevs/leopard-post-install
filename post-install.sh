@@ -26,10 +26,12 @@ cp -r /root/leopard-post-install/fonts/SanFrancisco /usr/share/fonts/truetype
 # Coopia la configuracion local del usuario
 mkdir -p /home/$username/.config
 cp -r /root/leopard-post-install/config/* /home/$username/.config/
+chown -R $username:$username /home/$username/.config
 
 # Copia los archivos locales al directorio del usuario
 mkdir -p /home/$username/.local
 cp -r /root/leopard-post-install/local/* /home/$username/.local
+chown -R $username:$username /home/$username/.local
 
 # Copia los fondos de pantalla
 cp -r /root/leopard-post-install/wallpapers/* /usr/share/images/desktop-base
@@ -50,6 +52,15 @@ row=1
 col=0
 EOF
 chown $username:$username /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
+
+# Rofi theme
+mkdir -p /home/$username/.local/share/rofi/themes/
+touch /home/$username/.local/share/rofi/themes/launchpad.rasi
+cat <<EOF > /home/$username/.local/share/rofi/themes/launchpad.rasi
+@theme "/home/$username/.local/share/rofi/themes/launchpad.rasi"
+EOF
+chown $username:$username /home/$username/.local/share/rofi/themes/launchpad.rasi
+
 
 # Set wallpaper
 xfconf-query -c xfce4-desktop -p  /backdrop/screen0/monitor0/workspace0/last-image -s /usr/share/images/desktop-base/leopard-linux-default.jpg
