@@ -59,3 +59,4 @@ col=0
 row=1
 col=0
 EOF
+chown $username:$username /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
