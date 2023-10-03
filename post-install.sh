@@ -77,3 +77,7 @@ cp os-release /etc/
   # Crear el directorio.
 #   mkdir -p /usr/share/lightdm-webkit/themes/
 # fi
+
+#/usr/share/desktop-base/active-theme/grub/grub-4x3.png
+cp /root/leopard-post-install/grub-images/grub-4x3.png /usr/share/desktop-base/active-theme/grub/grub-4x3.png
+cp /root/leopard-post-install/grub-images/grub-16x9.png /usr/share/desktop-base/active-theme/grub/grub-16x9.png
