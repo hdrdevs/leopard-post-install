@@ -21,6 +21,9 @@ EOF
 chown $username:$username /home/$username/.config/autostart/plank.desktop
 chmod +x /home/$username/.config/autostart/plank.desktop
 
+# Copia el tema de Plank
+cp -r /root/leopard-post-install/cratos-lion /usr/share/plank/themes
+
 # Copia el tema de GTK
 cp -r /root/leopard-post-install/Leopard-linux-theme /usr/share/themes
 
@@ -41,3 +44,18 @@ cp -r /root/leopard-post-install/local/* /home/$username/.local
 
 # Copia los fondos de pantalla
 cp -r /root/leopard-post-install/wallpapers/* /usr/share/images/desktop-base
+
+# Crea la configuracion del escritorio
+touch /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
+cat <<EOF > /home/$username/.config/xfce4/desktop/icons.screen.latest.rc
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[Trash]
+row=0
+col=0
+
+[/home/$username]
+row=1
+col=0
+EOF
