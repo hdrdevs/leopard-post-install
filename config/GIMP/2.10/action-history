@@ -1,0 +1,27 @@
+# GIMP action-history
+
+(history-item "dialogs-layers" 4)
+(history-item "file-open" 1)
+(history-item "tools-size-increase" 0)
+(history-item "image-new" 2)
+(history-item "view-zoom-in" 0)
+(history-item "edit-copy" 0)
+(history-item "edit-paste-as-new-image-short" 1)
+(history-item "file-open-recent-01" 0)
+(history-item "edit-copy-visible" 0)
+(history-item "edit-paste-as-new-layer" 0)
+(history-item "file-open-as-layers" 0)
+(history-item "filters-levels" 0)
+(history-item "file-export-as" 0)
+(history-item "file-quit" 1)
+(history-item "windows-tab-position" 0)
+(history-item "dialogs-preferences" 0)
+(history-item "tools-aspect-decrease" 0)
+(history-item "dialogs-toolbox" 0)
+(history-item "dialogs-tool-options" 0)
+(history-item "windows-dock-0003" 0)
+(history-item "tools-scale" 0)
+(history-item "select-none" 0)
+(history-item "image-resize" 1)
+
+# end of action-history

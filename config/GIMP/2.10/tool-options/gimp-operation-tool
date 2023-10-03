@@ -1,0 +1,6 @@
+# GIMP gimp-operation-tool options
+
+(foreground (color-rgb 0.85490196943283081 0.87843137979507446 0.90196079015731812))
+(background (color-rgb 0.59607845544815063 0.59607845544815063 0.59607845544815063))
+
+# end of gimp-operation-tool options

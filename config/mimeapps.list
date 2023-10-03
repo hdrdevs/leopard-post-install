@@ -1,0 +1,10 @@
+[Default Applications]
+application/octet-stream=org.xfce.mousepad.desktop
+text/plain=org.xfce.mousepad.desktop
+
+[Added Associations]
+application/octet-stream=org.xfce.mousepad.desktop;
+text/plain=org.xfce.mousepad.desktop;
+application/x-desktop=org.xfce.mousepad.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;
