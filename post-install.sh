@@ -65,7 +65,15 @@ EOF
 chown $username:$username /home/$username/.config/rofi/config.rasi
 
 # Crea un enlace simbolico en /usr/share/images/default a leopard-linux-default.jpg
+rm /usr/share/images/default
 ln -s /usr/share/images/desktop-base/leopard-linux-default.jpg /usr/share/images/default
 
 # Copia la configuracion de la distribución
+rm /etc/os-release
 cp os-release /etc/os-release
+
+# Copio el tema de lightdm
+# if [ ! -d "/usr/share/lightdm-webkit/themes/" ]; then
+  # Crear el directorio.
+#   mkdir -p /usr/share/lightdm-webkit/themes/
+# fi
