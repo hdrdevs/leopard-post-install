@@ -81,6 +81,6 @@ cp os-release /etc/os-release
 #   mkdir -p /usr/share/lightdm-webkit/themes/
 # fi
 
-#/usr/share/desktop-base/active-theme/grub/grub-4x3.png
+# Copio las imagenes de fondo del tema de Grub
 cp /root/leopard-post-install/grub-images/grub-4x3.png /usr/share/desktop-base/active-theme/grub/grub-4x3.png
 cp /root/leopard-post-install/grub-images/grub-16x9.png /usr/share/desktop-base/active-theme/grub/grub-16x9.png
