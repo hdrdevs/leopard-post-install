@@ -73,11 +73,7 @@ cp /root/leopard-post-install/login-background/background.svg /usr/share/desktop
 
 # Copia la configuracion de la distribución
 # rm /etc/os-release
-# cp os-release /etc/os-release
-echo "PRETTY_NAME=Leopard Linux" >> /usr/lib/os-release
-echo "VERSION=1" >> /usr/lib/os-release
-echo "VERSION_ID=1" >> /usr/lib/os-release
-echo "VERSION_CODENAME=leopard" >> /usr/lib/os-release
+cp os-release /usr/lib/os-release
 
 # Copio el tema de lightdm
 # if [ ! -d "/usr/share/lightdm-webkit/themes/" ]; then
