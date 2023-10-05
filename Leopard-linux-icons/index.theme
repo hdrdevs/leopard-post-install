@@ -7,357 +7,357 @@ Directories=emblems/8,actions/16,animations/16,apps/16,categories/16,devices/16,
 [emblems/8]
 Size=8
 Context=Emblems
-Type=fixed
+Type=Scalable
 
 [actions/16]
 Size=16
 Context=Actions
-Type=fixed
+Type=Scalable
 
 [animations/16]
 Size=16
 Context=Animations
-Type=fixed
+Type=Scalable
 
 [apps/16]
 Size=16
 Context=Apps
-Type=fixed
+Type=Scalable
 
 [devices/16]
 Size=16
 Context=Devices
-Type=fixed
+Type=Scalable
 
 [categories/16]
 Size=16
 Context=Categories
-Type=fixed
+Type=Scalable
 
 [emblems/16]
 Size=16
 Context=Emblems
-Type=fixed
+Type=Scalable
 
 [mimetypes/16]
 Size=16
 Context=Mimetypes
-Type=fixed
+Type=Scalable
 
 [places/16]
 Size=16
 Context=Places
-Type=fixed
+Type=Scalable
 
 [status/16]
 Size=16
 Context=Status
-Type=fixed
+Type=Scalable
 
 [stock/16]
 Size=16
 Context=Stock
-Type=fixed
+Type=Scalable
 
 [actions/22]
 Size=22
 Context=Actions
-Type=fixed
+Type=Scalable
 
 [animations/22]
 Size=22
 Context=Animations
-Type=fixed
+Type=Scalable
 
 [apps/22]
 Size=22
 Context=Apps
-Type=fixed
+Type=Scalable
 
 [devices/22]
 Size=22
 Context=Devices
-Type=fixed
+Type=Scalable
 
 [categories/22]
 Size=22
 Context=Categories
-Type=fixed
+Type=Scalable
 
 [emblems/22]
 Size=22
 Context=Emblems
-Type=fixed
+Type=Scalable
 
 [mimetypes/22]
 Size=22
 Context=Mimetypes
-Type=fixed
+Type=Scalable
 
 [places/22]
 Size=22
 Context=Places
-Type=fixed
+Type=Scalable
 
 [status/22]
 Size=22
 Context=Status
-Type=fixed
+Type=Scalable
 
 [stock/22]
 Size=22
 Context=Stock
-Type=fixed
+Type=Scalable
 
 [actions/24]
 Size=24
 Context=Actions
-Type=fixed
+Type=Scalable
 
 [animations/24]
 Size=24
 Context=Animations
-Type=fixed
+Type=Scalable
 
 [apps/24]
 Size=24
 Context=Apps
-Type=fixed
+Type=Scalable
 
 [categories/24]
 Size=24
 Context=Categories
-Type=fixed
+Type=Scalable
 
 [devices/24]
 Size=24
 Context=Devices
-Type=fixed
+Type=Scalable
 
 [emblems/24]
 Size=24
 Context=Emblems
-Type=fixed
+Type=Scalable
 
 [mimetypes/24]
 Size=24
 Context=Mimetypes
-Type=fixed
+Type=Scalable
 
 [places/24]
 Size=24
 Context=Places
-Type=fixed
+Type=Scalable
 
 [status/24]
 Size=24
 Context=Status
-Type=fixed
+Type=Scalable
 
 [stock/24]
 Size=24
 Context=Stock
-Type=fixed
+Type=Scalable
 
 [actions/32]
 Size=32
 Context=Actions
-Type=fixed
+Type=Scalable
 
 [animations/32]
 Size=32
 Context=Animations
-Type=fixed
+Type=Scalable
 
 [apps/32]
 Size=32
 Context=Apps
-Type=fixed
+Type=Scalable
 
 [devices/32]
 Size=32
 Context=Devices
-Type=fixed
+Type=Scalable
 
 [categories/32]
 Size=32
 Context=Categories
-Type=fixed
+Type=Scalable
 
 [emblems/32]
 Size=32
 Context=Emblems
-Type=fixed
+Type=Scalable
 
 [mimetypes/32]
 Size=32
 Context=Mimetypes
-Type=fixed
+Type=Scalable
 
 [places/32]
 Size=32
 Context=Places
-Type=fixed
+Type=Scalable
 
 [status/32]
 Size=32
 Context=Status
-Type=fixed
+Type=Scalable
 
 [stock/32]
 Size=32
 Context=Stock
-Type=fixed
+Type=Scalable
 
 [actions/48]
 Size=48
 Context=Actions
-Type=fixed
+Type=Scalable
 
 [animations/48]
 Size=48
 Context=Animations
-Type=fixed
+Type=Scalable
 
 [apps/48]
 Size=48
 Context=Apps
-Type=fixed
+Type=Scalable
 
 [devices/48]
 Size=48
 Context=Devices
-Type=fixed
+Type=Scalable
 
 [categories/48]
 Size=48
 Context=Categories
-Type=fixed
+Type=Scalable
 
 [emblems/48]
 Size=48
 Context=Emblems
-Type=fixed
+Type=Scalable
 
 [mimetypes/48]
 Size=48
 Context=Mimetypes
-Type=fixed
+Type=Scalable
 
 [places/48]
 Size=48
 Context=Places
-Type=fixed
+Type=Scalable
 
 [status/48]
 Size=48
 Context=Status
-Type=fixed
+Type=Scalable
 
 [stock/48]
 Size=48
 Context=Stock
-Type=fixed
+Type=Scalable
 
 [actions/64]
 Size=64
 Context=Actions
-Type=fixed
+Type=Scalable
 
 [animations/64]
 Size=64
 Context=Animations
-Type=fixed
+Type=Scalable
 
 [apps/64]
 Size=64
 Context=Apps
-Type=fixed
+Type=Scalable
 
 [categories/64]
 Size=64
 Context=Categories
-Type=fixed
+Type=Scalable
 
 [devices/64]
 Size=64
 Context=Devices
-Type=fixed
+Type=Scalable
 
 [emblems/64]
 Size=64
 Context=Emblems
-Type=fixed
+Type=Scalable
 
 [mimetypes/64]
 Size=64
 Context=Mimetypes
-Type=fixed
+Type=Scalable
 
 [places/64]
 Size=48
 Context=Places
-Type=fixed
+Type=Scalable
 
 [status/64]
 Size=64
 Context=Status
-Type=fixed
+Type=Scalable
 
 [stock/64]
 Size=64
 Context=Stock
-Type=fixed
+Type=Scalable
 
 [actions/96]
 Size=96
 Context=Actions
-Type=fixed
+Type=Scalable
 
 [animations/96]
 Size=96
 Context=Animations
-Type=fixed
+Type=Scalable
 
 [apps/96]
 Size=96
 Context=Apps
-Type=fixed
+Type=Scalable
 
 [categories/96]
 Size=96
 Context=Categories
-Type=fixed
+Type=Scalable
 
 [devices/96]
 Size=96
 Context=Devices
-Type=fixed
+Type=Scalable
 
 [emblems/96]
 Size=96
 Context=Emblems
-Type=fixed
+Type=Scalable
 
 [mimetypes/96]
 Size=96
 Context=Mimetypes
-Type=fixed
+Type=Scalable
 
 [places/96]
 Size=96
 Context=Places
-Type=fixed
+Type=Scalable
 
 [status/96]
 Size=96
 Context=Status
-Type=fixed
+Type=Scalable
 
 [stock/96]
 Size=96
 Context=Stock
-Type=fixed
+Type=Scalable
 
 [actions/scalable]
 Size=96
