@@ -68,6 +68,11 @@ chown $username:$username /home/$username/.config/rofi/config.rasi
 rm /usr/share/images/desktop-base/default
 ln -s /usr/share/images/desktop-base/leopard-linux-default.jpg /usr/share/images/desktop-base/default
 
+# Copio la imagen de fondo de login
+cp /root/leopard-post-install/login-background/background.svg /usr/share/desktop-base/active-theme/login/
+
+
+
 # Copia la configuracion de la distribución
 # rm /etc/os-release
 cp os-release /etc/os-release
